@@ -1,1 +1,1 @@
-{"workflowApiVersion":"1.1","metaData":{"icon":"images/icon.svg","category":"customer"},"type":"REST","lang":{"en-US":{"name":"Sample Activity","description":"Sample Activity."}}}
+<head><script defer="defer" src="../sample-activity.6873055a6b3e0527cebd.js"></script><link href="../sample-activity.css" rel="stylesheet"></head>{"workflowApiVersion":"1.1","metaData":{"icon":"images/icon.png","category":"customer"},"type":"RestDecision","lang":{"en-US":{"name":"Sample Activity","description":"Sample Oviva Activity."}}}
