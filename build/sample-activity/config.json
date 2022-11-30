@@ -1,14 +1,1 @@
-{
-  "workflowApiVersion": "1.1",
-  "metaData": {
-    "icon": "images/icon.png",
-    "category": "customer"
-  },
-  "type": "RestDecision",
-  "lang": {
-    "en-US": {
-      "name": "Sample Activity",
-      "description": "Sample Oviva Activity."
-    }
-  }
-}
+{"workflowApiVersion":"1.1","metaData":{"icon":"images/icon.png","category":"customer"},"type":"RestDecision","lang":{"en-US":{"name":"Sample Activity","description":"Sample Oviva Activity."}},"arguments":{"execute":{"inArguments":[{"sample":10}],"outArguments":[],"url":"/rest/insights/_execute","timeout":10000,"retryCount":3,"retryDelay":1000,"concurrentRequests":5}},"configurationArguments":{"publish":{"url":"/rest/insights/_publish"},"validate":{"url":"/rest/insights/_validate"}},"schema":{"arguments":{"execute":{"inArguments":[],"outArguments":[{"sample":{"dataType":"Text","direction":"out","access":"visible"}}]}}}}
