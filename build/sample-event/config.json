@@ -12,8 +12,8 @@
   "type": "Oviva Event",
   "lang": {
     "en-US": {
-      "name": "Event (Workflow API v1.1)",
-      "description": "An example event using workflow API v1.1 format.",
+      "name": "Meal Logs",
+      "description": "Events related to meal logs.",
       "selectCountry": "Select Country",
       "enterFirstName": "Enter First Name",
       "enterLastName": "Enter Last Name",
