@@ -29,8 +29,8 @@
       "label": "selectTenant"
     },
     {
-      "key": "enterTotalMealLogs",
-      "label": "enterTotalMealLogs"
+      "key": "enterTotalMealLog",
+      "label": "enterTotalMealLog"
     },
     {
       "key": "selectTransactionKeyMapping",
