@@ -47,8 +47,8 @@
         "label": "tenantLabel"
       },
       {
-        "valuePath": "arguments.totalMealLogs",
-        "label": "totalMealLogsLabel"
+        "valuePath": "arguments.totalMealLog",
+        "label": "totalMealLogLabel"
       },
       {
         "valuePath": "metaData.transactionKeys",
