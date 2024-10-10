@@ -1,4 +1,4 @@
-define(["js/postmonger"], function (Postmonger) {
+define(["build/sample-event/js/postmonger"], function (Postmonger) {
     "use strict";
 
     var connection = new Postmonger.Session();
