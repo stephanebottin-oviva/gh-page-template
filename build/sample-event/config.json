@@ -13,15 +13,11 @@
   "lang": {
     "en-US": {
       "name": "Meal Logs",
-      "description": "Events related to meal logs.",
-      "selectCountry": "Select Country",
-      "enterFirstName": "Enter First Name",
-      "enterLastName": "Enter Last Name",
-      "enterFavoriteFood": "Enter Favorite Food",
-      "countryCodeLabel": "Country Code",
-      "firstNameLabel": "First Name",
-      "lastNameLabel": "Last Name",
-      "favoriteFoodLabel": "Favorite Food",
+      "description": "Entry event when a patient logs 1 or more meal logs.",
+      "selectTenant": "Select Tenant",
+      "enterTotalMealLogs": "Enter Total Meal Logs",
+      "tenantLabel": "Tenant",
+      "totalMealLogLabel": "Total Meal Logs",
       "selectTransactionKeyMapping": "Transaction Key"
     }
   },
@@ -29,21 +25,12 @@
   "filterExpressionEnabled": false,
   "wizardSteps": [
     {
-      "key": "selectCountry",
-      "label": "selectCountry"
+      "key": "selectTenant",
+      "label": "selectTenant"
     },
     {
-      "key": "enterFirstName",
-      "label": "enterFirstName"
-    },
-    {
-      "key": "enterLastName",
-      "label": "enterLastName"
-    },
-    {
-      "key": "enterFavoriteFood",
-      "label": "enterFavoriteFood",
-      "active": false
+      "key": "enterTotalMealLogs",
+      "label": "enterTotalMealLogs"
     },
     {
       "key": "selectTransactionKeyMapping",
@@ -56,20 +43,12 @@
     },
     "summary": [
       {
-        "valuePath": "arguments.countryCode",
-        "label": "countryCodeLabel"
+        "valuePath": "arguments.tenant",
+        "label": "tenantLabel"
       },
       {
-        "valuePath": "arguments.firstName",
-        "label": "firstNameLabel"
-      },
-      {
-        "valuePath": "arguments.lastName",
-        "label": "lastNameLabel"
-      },
-      {
-        "valuePath": "arguments.favoriteFood",
-        "label": "favoriteFoodLabel"
+        "valuePath": "arguments.totalMealLogs",
+        "label": "totalMealLogsLabel"
       },
       {
         "valuePath": "metaData.transactionKeys",
