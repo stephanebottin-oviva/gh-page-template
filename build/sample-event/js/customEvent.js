@@ -21,6 +21,7 @@ define(["postmonger"], function (Postmonger) {
     connection.on("gotoStep", onGotoStep);
 
     function initialize(data) {
+        console.log({data});
         var tenant;
         var totalMealLog;
 
