@@ -6,8 +6,8 @@
   "type": "Event",
   "lang": {
     "en-US": {
-      "name": "Meal Logs",
-      "description": "Entry event when a patient logs 1 or more meal logs.",
+      "name": "Oviva Custom Event",
+      "description": "Custom event triggered by Oviva platform",
       "selectTenant": "Select Tenant",
       "enterTotalMealLogs": "Enter Total Meal Logs",
       "tenantLabel": "Tenant",
