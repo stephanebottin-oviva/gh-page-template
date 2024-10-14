@@ -105,7 +105,7 @@ define(["postmonger"], function (Postmonger) {
 
         payload["configurationArguments"] = payload["configurationArguments"] || {};
 
-        payload.dataExtensionId = "d3497cdf-f79d-4f1e-83ad-8ccc885214f5";
+        payload.dataExtensionId = "E195C311-BFBF-47AF-985E-3703ABB154FB";
 
         connection.trigger("updateEvent", payload);
     }

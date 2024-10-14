@@ -4,12 +4,12 @@
     "icon": "images/logo.png",
     "transactionKeys": {
       "0": {
-        "from": "Event Property",
-        "to": "DE_Name.DE_Property"
+        "from": "PatientUserId",
+        "to": "DE_Name.DE_PatientUserId"
       }
     }
   },
-  "type": "Oviva Event",
+  "type": "Event",
   "lang": {
     "en-US": {
       "name": "Meal Logs",
