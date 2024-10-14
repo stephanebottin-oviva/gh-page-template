@@ -107,6 +107,7 @@ define(["postmonger"], function (Postmonger) {
 
         payload.dataExtensionId = "E195C311-BFBF-47AF-985E-3703ABB154FB";
 
+        console.log({payload: JSON.stringify(payload, null, 2)});
         connection.trigger("updateEvent", payload);
     }
 });
