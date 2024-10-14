@@ -1,13 +1,7 @@
 {
   "workflowApiVersion": "1.1",
   "metaData": {
-    "icon": "images/logo.png",
-    "transactionKeys": {
-      "0": {
-        "from": "PatientUserId",
-        "to": "DE_Name.DE_PatientUserId"
-      }
-    }
+    "icon": "images/logo.png"
   },
   "type": "Event",
   "lang": {
@@ -17,8 +11,7 @@
       "selectTenant": "Select Tenant",
       "enterTotalMealLogs": "Enter Total Meal Logs",
       "tenantLabel": "Tenant",
-      "totalMealLogLabel": "Total Meal Logs",
-      "selectTransactionKeyMapping": "Transaction Key"
+      "totalMealLogLabel": "Total Meal Logs"
     }
   },
   "configurationArguments": {},
@@ -31,10 +24,6 @@
     {
       "key": "enterTotalMealLog",
       "label": "enterTotalMealLog"
-    },
-    {
-      "key": "selectTransactionKeyMapping",
-      "label": "selectTransactionKeyMapping"
     }
   ],
   "userInterfaces": {
@@ -49,10 +38,6 @@
       {
         "valuePath": "arguments.totalMealLog",
         "label": "totalMealLogLabel"
-      },
-      {
-        "valuePath": "metaData.transactionKeys",
-        "label": "Transaction Key"
       }
     ]
   }
