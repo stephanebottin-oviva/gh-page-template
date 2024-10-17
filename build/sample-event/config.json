@@ -15,7 +15,7 @@
     }
   },
   "configurationArguments": {},
-  "filterExpressionEnabled": false,
+  "filterExpressionEnabled": true,
   "wizardSteps": [
     {
       "key": "selectTenant",
