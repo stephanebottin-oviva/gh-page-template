@@ -6,8 +6,8 @@
   "type": "Event",
   "lang": {
     "en-US": {
-      "name": "Oviva Custom Event",
-      "description": "Custom event triggered by Oviva platform",
+      "name": "Oviva Data",
+      "description": "Use this event to power a Journey based on Oviva data.",
       "selectTenant": "Select Tenant",
       "enterTotalMealLogs": "Enter Total Meal Logs",
       "tenantLabel": "Tenant",
